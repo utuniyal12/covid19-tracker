@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Indie+Flower|News+Cycle|Passion+One&display=swap');
+.total-count{
+    width: 20%;
+    margin: auto;
+    font-size: 40px;
+    text-align: center;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+h1{
+    text-align: center;
+    font-size: 72px;
+}
+.total-count p{
+    font-family: 'News Cycle', sans-serif;
+    font-size: 32px;
+}
+.all-counts{
+    display: flex;
+    margin-top: 150px;
+}
+.count{
+    font-size: 52px;
+}
+
+.news{
+    padding: 50px;
+    font-size: 32px;
+    margin: auto;
+    width: 80%;
+    background-color: rgb(0, 0, 0,0.2);
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+}
+.prev{
+    position: fixed;
+    left: 0;
+}
+.next{
+    position: fixed;
+    right: 0;
+}
+.btn{
+    outline: none;
+    height: 60px;
+    width: 20px;
+    border: none;
+    font-weight: bolder;
+    background-color: darkgray;
+}
+
+@media (max-width: 767px) {
+    .all-counts{
+        display: block;
+        margin-top: 60px;
+    }
+    h1{
+        font-size: 34px;
+        text-align: center;
+    }
+    .count{
+        font-size: 34px;
+    }
+    .total-count{
+        text-align: center;
+    }
+    .total-count p{
+        font-family: 'News Cycle', sans-serif;
+        font-size: 22px;
+    }
+    .news{
+        font-size: 22px;
+        font-family: 'Indie Flower', cursive;
+        text-align: center;
+    }
+    p{
+        margin-top: 0;
+    }
+}
