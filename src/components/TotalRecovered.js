@@ -1,5 +1,4 @@
 import React from 'react'
-import '../styles/landing.css'
 import CountUp from 'react-countup'
 
 function TotalRecovered(props){
@@ -11,8 +10,8 @@ function TotalRecovered(props){
     for(let i=0;i<cols;i++){
         total+=Number(props.value[i][latestDate])   
     }
-    return(<div className="total-count">
-        <CountUp className="count"
+    return(<div className="count">
+        <CountUp
             end={total}
             duration={4}
         />

@@ -1,6 +1,7 @@
 import React from 'react';
 import Counter from './components/Counter'
 import './App.css';
+import './styles/landing.css'
 import News from './components/News'
 
 function App() {

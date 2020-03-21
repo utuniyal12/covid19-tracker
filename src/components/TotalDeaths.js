@@ -11,8 +11,8 @@ function TotalDeaths(props){
     for(let i=0;i<cols;i++){
         total+=Number(props.value[i][latestDate])   
     }
-    return(<div className="total-count">
-        <CountUp className="count"
+    return(<div className="count">
+        <CountUp
             end={total}
             duration={3}
         />

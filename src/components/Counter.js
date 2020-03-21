@@ -52,7 +52,7 @@ class Counter extends React.Component{
         .then(res=>res.text())
         .then(res=>{
             csv().fromString(res)
-            .then(obj=>{    
+            .then(obj=>{
                 this.setState({recovered:obj})
             })
         })
